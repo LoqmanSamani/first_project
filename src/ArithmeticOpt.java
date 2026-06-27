@@ -6,7 +6,7 @@ public class ArithmeticOpt{
 		// arithmetic operations
 		int x;
 		int y;
-		int z;
+		int z = 0;
 		char operation;
      		
 		// ask for inputs
@@ -16,7 +16,7 @@ public class ArithmeticOpt{
 		System.out.print("Enter another number (int): ");
 		y = scanner.nextInt();
 		System.out.print("Enter an operation (+, -, *, / or %): ");
-		operation = scanner.nextLine().charAt(0);// there is no specific nextchar method 
+		operation = scanner.next().charAt(0);// there is no specific nextchar method 
 		// so we use the command above to store the input char.
 
 		// apply operation   
@@ -32,11 +32,12 @@ public class ArithmeticOpt{
 		    z = x % y;
 		}else{
  		    System.out.println("Something went wrong!!! please check your inputs.");
+		    return; // stop the programm!
 		}
 
 		// print result
 		System.out.println("--------------------");
-		System.out.println("x " + operation + " y" + " = " + "z");
+		System.out.println(x + " " + operation + " " + y + " = " + " " + z);
 		System.out.println("--------------------");
 
 		scanner.close();
