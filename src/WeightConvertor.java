@@ -28,10 +28,12 @@ public class WeightConvertor{
 		}
 		else{
 			System.out.println("Invalid weight unit! this application only supports kg and lbs.");
+			return;
 		}
 		
 		// output
 		System.out.printf("Your input weight in %s is %f%n", convertTo, finalWeight);
-		
+		sc.close(); //close scanner!		
 	}
 }
+
