@@ -35,5 +35,8 @@ public class SubString{
 		System.out.printf("@ to end: %s%n", atSignToEnd);
 		System.out.printf("A Random Part(15, 55): %s%n", randomPart);
                 System.out.printf("Based on your Input(%d, %d): %s%n", startIdx, endIdx, yourChoice);
+
+		sc.close();
 	}
 }
+
