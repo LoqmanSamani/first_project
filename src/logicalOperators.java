@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class logicalOperations{
+public class logicalOperators{
 	public static void main(String[] args){
-		// logical operation in java
+		// logical operators in java
 		// && : and
 		// || : or
 		// ! : not
@@ -48,6 +48,6 @@ public class logicalOperations{
 			}
 		}
 		System.out.printf("You successfully created your username (%s)!%n", username);
-		
+		sc.close(); //  close the scanner
 	}
 }
