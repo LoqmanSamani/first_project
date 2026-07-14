@@ -27,5 +27,6 @@ public class arrayUserInput{
 		for (String food: foods){
 			System.out.println("    - " + food);
 		}
+		sc.close();
 	}
 }
