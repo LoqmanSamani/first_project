@@ -1,0 +1,2 @@
+Hello from FileWriter!
+a simple example of how to use FileWriter!

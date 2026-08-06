@@ -1,0 +1,2 @@
+Hello from BufferedWriter!
+Buffering reduces expensive I/O operations on large datasets.
